@@ -152,7 +152,7 @@
     align-items: center;
     column-gap: 53px;
     height: 80px;
-    margin: 0;
+    top: 0;
 }
 
 .flex_wallet {
