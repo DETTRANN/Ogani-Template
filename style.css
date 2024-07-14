@@ -144,8 +144,14 @@
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 2px;
+    position: relative;
+    list-style: none;
 }
 
+.menu_font:hover ol{
+    opacity: 1;
+    z-index: 99;
+}
 .flex_menu {
     display: flex;
     align-items: center;
@@ -827,4 +833,21 @@
 
 a {
     text-decoration: none;
+}
+
+#paglist {
+    padding: 0;
+    list-style: none;
+    position: absolute; 
+    opacity: 0;
+    z-index: -99;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    width: 350%;
+    transition: 1s;
+}
+
+.pagtxt {
+    font-size: 15px;
+    font-weight: lighter;
 }
