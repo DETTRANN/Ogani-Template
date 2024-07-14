@@ -121,8 +121,6 @@
     margin-left: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
     column-gap: 30px;
     justify-content: center;
 }
@@ -778,7 +776,7 @@
 
 .img_blog {
     width: 360px;
-    height: ;
+    height: auto;
     margin-bottom: 25px;
 }
 
