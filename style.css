@@ -157,6 +157,11 @@
     align-items: center;
     column-gap: 53px;
     height: 80px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+    padding: 0;
 
 }
 
