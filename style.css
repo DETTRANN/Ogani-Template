@@ -121,8 +121,6 @@
     margin-left: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
     column-gap: 30px;
     justify-content: center;
 }
@@ -778,7 +776,7 @@
 
 .img_blog {
     width: 360px;
-    height: ;
+    height: auto;
     margin-bottom: 25px;
 }
 
@@ -829,4 +827,33 @@
 
 a {
     text-decoration: none;
+}
+
+#navpag {
+    position: relative;
+}
+
+#listnav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+    padding: 0;
+}
+
+#navpag:hover ol{
+    opacity: 1;
+    z-index: 99;
+}   
+
+#paglist {
+    padding: 0;
+    list-style: none;
+    position: absolute; 
+    opacity: 0;
+    z-index: -99;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    width: 350%;
+    transition: 1s;
 }
