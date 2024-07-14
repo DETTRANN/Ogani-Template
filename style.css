@@ -829,6 +829,11 @@ a {
     text-decoration: none;
 }
 
+#nav {
+    grid-column: 3/5;
+    align-content: center;
+}
+
 #navpag {
     position: relative;
 }
