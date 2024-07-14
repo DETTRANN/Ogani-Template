@@ -836,6 +836,7 @@ a {
 
 #navpag {
     position: relative;
+    list-style: none;
 }
 
 #listnav {
