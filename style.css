@@ -94,6 +94,7 @@
 #div_menu {
     grid-column-start: 2;
     grid-column-end: 4;
+    align-items: center;
 }
 
 #div_banner {
@@ -151,7 +152,6 @@
     align-items: center;
     column-gap: 53px;
     height: 80px;
-
 }
 
 .flex_wallet {
